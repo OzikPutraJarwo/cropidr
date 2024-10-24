@@ -92,6 +92,11 @@ URL ini juga dapat diganti dengan path file yang telah didownload lokal.
   <img src="https://contrib.rocks/image?repo=OzikPutraJarwo/cropid.R"/>
 </a>
 
+## Pembaruan Selanjutnya
+
+- ScottKnott
+- Update DMRT
+
 ## Atribusi
 
 Hak Cipta CropID oleh Ozik Putra Jarwo. Ucapan terima kasih diberikan kepada pengembang R packages berikut yang telah membantu dan menjadi dependensi CropID:
