@@ -1,10 +1,11 @@
 Package: cropid
 Type: Package
-Title: Indonesian Agricultural Research Related Functions and Data
-Version: 1.0.2
+Title: R Package for Indonesian Agricultural Research Related Functions and Data
+Version: 2.0.0
 Author: Ozik Putra Jarwo
 Maintainer: <jarwoozik08@gmail.com>
 Description: Complete package for Indonesian agricultural research, e.g. ANOVA, post hoc, path analysis, genotype by trait, etc.
 License: MIT
+Encoding: UTF-8
 Imports: 
 RoxygenNote: 7.3.1

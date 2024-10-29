@@ -2,30 +2,39 @@
 % Please edit documentation in R/avs.r
 \name{avs}
 \alias{avs}
-\title{Analisis Varians (ANOVA) dan Uji Lanjut (Post Hoc Test)}
+\title{Analisis Varians (ANOVA) dan Uji Lanjut (Post-hoc Test)}
 \usage{
-avs(excel_j, excel_k, sheet_n, sheet_k, anova_r, anova_p, anova_u, posthoc)
+avs(
+  file_jalur,
+  file_kolom,
+  lembar_nama,
+  kolom_respon,
+  jenis_rancangan,
+  kolom_perlakuan,
+  kolom_kelompok,
+  jenis_ujilanjut
+)
 }
 \arguments{
-\item{excel_j}{Jalur ke file data excel.}
+\item{file_jalur}{Jalur ke file data excel}
 
-\item{excel_k}{Tipe kolom data excel.}
+\item{file_kolom}{Tipe kolom data excel}
 
-\item{sheet_n}{Nama sheet yang akan digunakan.}
+\item{lembar_nama}{Nama sheet yang akan digunakan}
 
-\item{sheet_k}{Nama kolom hasil dalam sheet yang digunakan.}
+\item{kolom_respon}{Nama kolom hasil dalam sheet yang digunakan}
 
-\item{anova_r}{Tipe ANOVA ("RAK" atau "RAL").}
+\item{jenis_rancangan}{Tipe ANOVA ("RAK" atau "RAL")}
 
-\item{anova_p}{Nama kolom perlakuan.}
+\item{kolom_perlakuan}{Nama kolom perlakuan}
 
-\item{anova_u}{Nama kolom ulangan.}
+\item{kolom_kelompok}{Nama kolom ulangan}
 
-\item{posthoc}{Tipe uji lanjut ("BNT", "BNJ", atau "DMRT").}
+\item{jenis_ujilanjut}{Tipe uji lanjut ("BNT", "BNJ", "DMRT", atau "ScottKnott")}
 }
 \value{
-Hasil ANOVA dan Uji Lanjut.
+Hasil ANOVA dan Uji Lanjut
 }
 \description{
-Analisis Varians (ANOVA) dan Uji Lanjut (Post Hoc Test)
+Analisis Varians (ANOVA) dan Uji Lanjut (Post-hoc Test)
 }

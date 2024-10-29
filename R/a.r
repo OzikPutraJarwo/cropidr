@@ -12,7 +12,7 @@
     }
   }
 
-  packages <- c("readxl", "dplyr", "tibble", "crayon", "emmeans", "multcomp", "multcompView", "agricolae")
+  packages <- c("readxl", "dplyr", "tibble", "crayon", "emmeans", "multcomp", "multcompView", "agricolae", "ScottKnott")
 
   cli_progress_bar(
     format = "Memuat paket: {cli::pb_bar} {cli::pb_percent} | {cli::pb_current}/{cli::pb_total}",
@@ -26,15 +26,15 @@
 
   cli_progress_done()
 
-  vers <-  "v1.0.2"
+  vers <-  "v2.0.0"
   library(crayon)
   packageStartupMessage("")
   packageStartupMessage(bold(green("CropID")))
   packageStartupMessage("")
-  packageStartupMessage("Indonesian Agricultural Research Related Functions and Data")
+  packageStartupMessage("Paket R untuk Analisis terkait Pertanian")
   packageStartupMessage("Author   : Ozik Putra Jarwo")
-  packageStartupMessage("Version  : ", vers)
-  packageStartupMessage("Github   : https://github.com/OzikPutraJarwo/cropid")
-  packageStartupMessage("Contact  : https://www.kodejarwo.com")
+  packageStartupMessage("Versi    : ", vers)
+  packageStartupMessage("Github   : https://github.com/OzikPutraJarwo/cropidr")
+  packageStartupMessage("Kontak   : https://www.kodejarwo.com")
   packageStartupMessage("")
 }
